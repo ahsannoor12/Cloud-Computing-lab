@@ -1,4 +1,4 @@
-# 🚀 Lab 32 — Setting Up and Using a Cloud-Based Jupyter Environment
+#  Lab 32 — Setting Up and Using a Cloud-Based Jupyter Environment
 
 A comprehensive guide for getting started with **Google Colab** and cloud-based data science workflows. This lab walks you through setting up a Jupyter notebook in the cloud, installing packages, working with datasets, training machine learning models, and saving your work to Google Drive.
 
@@ -8,7 +8,7 @@ A comprehensive guide for getting started with **Google Colab** and cloud-based 
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
@@ -22,23 +22,23 @@ A comprehensive guide for getting started with **Google Colab** and cloud-based 
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This lab demonstrates the complete workflow of data science in a cloud environment using **Google Colab**. You'll go from zero to a trained machine learning model without installing anything on your local machine.
 
 **Key highlights:**
-- ✅ Launch and configure a Jupyter environment in Google Colab
-- ✅ Install and import Python libraries (pip package management)
-- ✅ Load real-world datasets (Iris flower dataset from scikit-learn)
-- ✅ Explore and visualize data with pandas and seaborn
-- ✅ Train a machine learning model (Random Forest Classifier)
-- ✅ Evaluate model performance and generate reports
-- ✅ Save trained models to Google Drive for persistence
-- ✅ Load and reuse trained models for new predictions
+-  Launch and configure a Jupyter environment in Google Colab
+-  Install and import Python libraries (pip package management)
+-  Load real-world datasets (Iris flower dataset from scikit-learn)
+-  Explore and visualize data with pandas and seaborn
+-  Train a machine learning model (Random Forest Classifier)
+-  Evaluate model performance and generate reports
+-  Save trained models to Google Drive for persistence
+-  Load and reuse trained models for new predictions
 
 ---
 
-## 🎯 Prerequisites
+##  Prerequisites
 
 - **Google Account** — required to use Google Colab
 - **Google Drive** — to save and retrieve trained models
@@ -47,7 +47,7 @@ This lab demonstrates the complete workflow of data science in a cloud environme
 
 ---
 
-## 🎓 What You Will Learn
+##  What You Will Learn
 
 ### 1. **Cloud Jupyter Basics**
    - What Google Colab is and how it compares to local Jupyter
@@ -82,7 +82,7 @@ This lab demonstrates the complete workflow of data science in a cloud environme
 
 ---
 
-## 🔧 Lab Steps
+##  Lab Steps
 
 ### Step 1: Launch Google Colab
 - Open [colab.research.google.com](https://colab.research.google.com)
@@ -134,7 +134,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 accuracy = model.score(X_test, y_test)
-print(f"🎯 Model Accuracy: {accuracy * 100:.2f}%")
+print(f" Model Accuracy: {accuracy * 100:.2f}%")
 ```
 
 ### Step 8: Save the Model to Google Drive
@@ -155,7 +155,7 @@ new_prediction = loaded_model.predict([[5.1, 3.5, 1.4, 0.2]])
 
 ---
 
-## 💻 Usage Instructions
+##  Usage Instructions
 
 ### Opening the Notebook in Google Colab
 
@@ -185,12 +185,12 @@ virginica      50
 versicolor    50
 Name: species, dtype: int64
 
-🎯 Model Accuracy: 100.00%
+ Model Accuracy: 100.00%
 ```
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose | Version |
 |-----------|---------|---------|
@@ -206,7 +206,7 @@ Name: species, dtype: int64
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 .
@@ -225,7 +225,7 @@ Name: species, dtype: int64
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### **Issue: "ModuleNotFoundError: No module named 'X'"**
 **Solution:**
@@ -260,7 +260,7 @@ Then re-run your code cell.
 
 ---
 
-## 📚 Resources
+##  Resources
 
 ### Official Documentation
 - [Google Colab Official Guide](https://colab.research.google.com/notebooks/intro.ipynb)
@@ -280,27 +280,27 @@ Then re-run your code cell.
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 After completing this lab, you will be able to:
 
-✅ Launch and configure cloud-based Jupyter notebooks  
-✅ Install and manage Python packages in cloud environments  
-✅ Load, explore, and visualize real datasets  
-✅ Build and train machine learning models  
-✅ Evaluate model performance quantitatively  
-✅ Persist and reload trained models for production use  
-✅ Collaborate using cloud infrastructure (Google Drive)  
+ Launch and configure cloud-based Jupyter notebooks  
+ Install and manage Python packages in cloud environments  
+ Load, explore, and visualize real datasets  
+ Build and train machine learning models  
+ Evaluate model performance quantitatively  
+ Persist and reload trained models for production use  
+ Collaborate using cloud infrastructure (Google Drive)  
 
 ---
 
-## 📝 License
+##  License
 
 This lab material is provided for educational purposes. Feel free to use, modify, and share for learning.
 
 ---
 
-## 💬 Questions & Feedback
+##  Questions & Feedback
 
 If you encounter issues or have suggestions for improvement:
 1. Check the **Troubleshooting** section above
@@ -309,12 +309,4 @@ If you encounter issues or have suggestions for improvement:
 
 ---
 
-## 📞 Contact
-
-**Course Instructor:** [Your Name/Contact]  
-**Department:** Data Science — Week 7  
-**Last Updated:** April 2026
-
----
-
-**Happy coding! 🚀 Welcome to cloud-based data science!**
+**Happy coding!  Welcome to cloud-based data science!**
